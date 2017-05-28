@@ -22,7 +22,12 @@
                     {% else %}
                     <li class="phone"><i class="fa fa-phone"></i><a href="tel:+91-8281618806">+91-8281618806</a></li>
                     {% endif %}
-                    
+                    {% if site.whatsapp %}
+                    <li class="phone"><i class="fa fa-phone"></i><a href="tel:{{site.phone}}">{{site.phone}}</a></li>
+                    {% else %}
+                    <a href="https://api.whatsapp.com/send?phone=+91-8281618806" method="get" target="_blank"><i class="fa fa-whatsapp"></i></a>
+                    {% endif %}
+                   
                     {% if site.website %}
                     <li class="website"><i class="fa fa-wordpress"></i><a href="http://{{site.website}}" target="_blank">{{site.website}}</a></li>
                     {% else %}
