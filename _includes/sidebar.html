@@ -26,9 +26,14 @@
                     {% if site.website %}
                     <li class="website"><i class="fa fa-wordpress"></i><a href="http://{{site.website}}" target="_blank">{{site.website}}</a></li>
                     {% else %}
-                    <li class="website"><i class="fa fa-wordpress"></i><a href="http://chipprogrammers.wordpress.com" target="_blank">Our Blog</a></li>
+                    <li class="website"><i class="fa fa-wordpress"></i><a href="http://chipprogrammers.wordpress.com" target="_blank">Electronics4u Blog</a></li>
                     {% endif %}
                     
+                    {% if site.website %}
+                    <li class="website"><i class="fa fa-blogger"></i><a href="http://{{site.website}}" target="_blank">{{site.website}}</a></li>
+                    {% else %}
+                    <li class="website"><i class="fa fa-blogger"></i><a href="http://chipprogrammer.blogspot.com" target="_blank">electronics4u Blog</a></li>
+                    {% endif %}                
                     {% if site.linkedin %}
                     <li class="linkedin"><i class="fa fa-linkedin"></i><a href="https://in.linkedin.com/in/{{site.linkedin}}" target="_blank">linkedin.com/in/{{site.linkedin}}</a></li>
                     {% else %}
