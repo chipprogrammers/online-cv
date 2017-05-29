@@ -190,6 +190,13 @@ p {
     .no-js h1 {
         color: #222222;
     }
+
+    #content {
+        margin: 0 auto;
+        padding-bottom: 50px;
+        width: 80%;
+        max-width: 978px;
+    }  
 .wrapper {
   background: #5BB66F;
   max-width: 960px;
