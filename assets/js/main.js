@@ -3,7 +3,7 @@ jQuery(document).ready(function($) {
 	
 	setTimeout(function(){
 		$('body').addClass('loaded');
-		$('h1').css('color','#222222');
+		$('h1').css('color','#ffffff');
 	}, 3000);
 
     $('.level-bar-inner').css('width', '0');
