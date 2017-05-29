@@ -8,7 +8,12 @@ layout: compress
 {% include head.html %}
 
 <body>
+<div id="loader-wrapper">
+    <div id="loader"></div>
+ 
 
+</div>
+<div class="content">
     <div class="wrapper">
         {% include sidebar.html %}
         
@@ -17,6 +22,7 @@ layout: compress
            {{content}}
             
         </div><!--//main-body-->
+        </div>
     </div>
  
 {% include footer.html %}
